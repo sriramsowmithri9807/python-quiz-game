@@ -53,14 +53,18 @@ python quiz.py
 ## Creating Questions
 
 Open the `questions.py` file to add your quiz questions. Each question is represented as a dictionary with the following structure:
+"""python code"""
+answer = input("what you do when you are alone? ")
+if answer == "i read books":
+    print('Correct!')
+  
+else:
+    print("Incorrect!")
 
-```python
-{
-    "question": "What is the capital of France?",
-    "options": ["A. London", "B. Paris", "C. Berlin", "D. Madrid"],
-    "correct_answer": "B"
-}
-```
+answer = input("what you do when you are confused? ")
+if answer == "i will be silent!":
+    print('Correct!')
+""""python code"""
 
 Add as many questions as you'd like to create an engaging quiz experience.
 
